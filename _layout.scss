@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 35rem;
+    border-radius: 8px;
+    margin: 8rem auto;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: max-content 5rem repeat(3, max-content);
+
+    &__user-img{
+        justify-self: center;
+
+        border-radius: 100%;
+        transform: translateY(-50%);
+        box-sizing: content-box;
+        border: 5px #fff solid;
+    }
+
+    &__username{
+        justify-self: center;
+        align-self: center;
+
+        margin-top: 2.5rem;
+        span{margin-left: 1rem;}
+    }
+
+    &__user-country{
+        justify-self: center;
+        margin-top: 1rem;
+    }
+    hr{margin: 2rem 0 2rem;}
+
+    &__user-info{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 2rem 2rem;
+
+        .box{
+            margin-bottom: 1.5rem;
+            text-align: center;
+
+            .num{margin-bottom: 1rem;}
+        }
+    }
+}
+

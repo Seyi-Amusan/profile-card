@@ -1,0 +1,37 @@
+@import 'layout';
+
+body{background-color: hsl(185, 75%, 39%);}
+
+.container{
+    background-color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-shadow: 0 1.5rem 2rem hsla(229, 23%, 23%, .5);
+    &__username{
+        font-size: 1.6rem;
+        span{font-weight: 400;}
+    }
+    &__user-country{
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+    hr{
+        border: none;
+        height: 1px;
+        background-color: hsl(0, 0%, 59%);
+    }
+    &__user-info{
+        .box{
+            .num{
+                font-weight: 700;
+                font-size: 1.6rem;
+            }
+            .text{
+                font-size: 1rem;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+
+.dark-grey{color: hsl(0, 0%, 59%);}
+.dark-blue{color: hsl(229, 23%, 23%);}
