@@ -10,7 +10,7 @@ html {
 }
 
 main {
-  width: 90vw;
+  max-width: 90vw;
   margin: 8rem auto;
   display: grid;
   grid: auto 20rem/0.8fr 0.3fr 1fr;
